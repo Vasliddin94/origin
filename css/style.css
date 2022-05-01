@@ -1,0 +1,347 @@
+.box{
+  width: 100%;
+  height: 200px;
+  border: 2px solid #ffff00;
+  box-sizing: border-box;
+  }
+
+
+#navbar{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+#showcase h1{
+  color: #ffffff;
+}
+
+.primary-text{
+  color: #03a9a9;
+}
+
+#main-header{
+  height: 75px;
+  border-bottom: 1px solid #03a9a9
+}
+
+
+
+#main-header h1{
+  margin-top: 25px;
+}
+
+#navbar{
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+#navbar li{
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+  font-weight: 600;
+}
+
+#navbar li a{
+  text-decoration: none;
+  color: #888888;
+  color:lightslategrey;
+  transition: 0.3s ease
+}
+
+#navbar li.active a, #navbar a:hover{
+  color: #03a9a9;
+  border-bottom: 3px solid #03a9a9;
+  padding-bottom: 3px;
+}
+
+#showcase{
+  background: url(https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg) no-repeat center center;
+  border-bottom: 1px solid #03a9a9;
+  margin-bottom: 30px;
+  height: 500px;
+  padding-top: 200px;
+}
+
+
+#showcase h1{
+  font-size: 50px;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+#showcase p{
+  color: #cccccc;
+  margin: 0;
+}
+
+#showcase-content{
+  background-color:rgb(1, 2, 3, 0.5) ;
+  width: 900px;
+  padding: 40px;
+  border-radius: 90px;
+  margin: auto;
+  text-align: center;
+  opacity: 0.9
+}
+
+
+#features{
+  text-align: center;
+  height: 540px;
+}
+
+#features h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#features p{
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+#features .fa{
+  font-size: 60px;
+  color: #03a9a9
+}
+
+.tel{
+  height: 500px;
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+#info{
+  background-color: rgb(105, 105, 105, 1);
+  height: 520px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+#info h2{
+  font-size: 35px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#info ul{
+  list-style: none;
+  padding: 0;
+}
+
+#info li{
+  line-height: 2em;
+  font-size: 20px;
+}
+
+.top{
+  margin-top: 120px;
+}
+
+#company{
+  background: #333333;
+  height: 200px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+#company h4{
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.fa-phone, .fa-envelope, .fa-map{
+  padding-right: 5px;
+}
+
+#company ul{
+  padding: 0;
+  list-style: none;
+  line-height: 2em;
+}
+
+#company input{
+  padding: 7px;
+}
+
+#company button{
+  background: #222222;
+  color: #ffffff;
+  padding: 10px;
+  border: 0;
+}
+
+
+
+#main-footer{
+  height: 60px;
+  text-align: center;
+  background-color: #03a9a9;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:960px) {
+  #showcase-content{
+    width: 800px;
+  }
+
+  #showcase-content h1{
+    font-size: 40px;
+  }
+
+  #showcase-content p{
+    font-size: 20px;
+  }
+
+  #features{
+    height: 570px;
+  }
+
+  #info{
+    height: 500px;
+  }
+
+  .tel{
+    width: 450px;
+  }
+
+  #company{
+    height: 220px;
+  }
+
+  #company li, p{
+  font-size: 17px;
+  }
+
+  #company input{
+    width: 130px;
+  }
+
+  #main-footer{
+    height: 70px;
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+  #showcase-content{
+    width: 500px;
+  }
+
+  #navbar{
+    padding-left: 70px;
+  }
+
+  #showcase h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+
+  #showcase p{
+    font-size: 17px;
+  }
+
+  #features{
+    height: 600px;
+  }
+
+  #info{
+    height: 520px;
+  }
+
+  .tel{
+    width: 350px;
+    height: 400px;
+    margin-top: 60px;
+  }
+
+  #company{
+    height: 300px;
+  }
+
+  #company h4{
+    font-size: 15px;
+  }
+
+  #company li, p{
+    font-size: 14px;
+  }
+
+  #company input{
+    width: 105px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  #company button{
+    width: 55px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width:576px) {
+  #main-header{
+    text-align: center;
+    height: 150px;
+  }
+  .right{
+    float: none;
+  }
+
+  #showcase{
+    width: 100%;
+    height: 400px;
+    padding-top: 150px;
+    text-align: center;
+  }
+
+  #showcase h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  #showcase p{
+    font-size: 15px;
+  }
+
+  #showcase-content{
+    width: 460px;
+  }
+
+  #features{
+    height: 1300px;
+  }
+
+  #info{
+    height: 800px;
+  }
+
+  .top{
+    margin-top: 0;
+  }
+
+  #company{
+    height: 500px;
+  }
+}
+
+
+
+
+
+/* Contact */
