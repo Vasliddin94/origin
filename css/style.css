@@ -194,9 +194,10 @@ img{
 }
 
 
+
 @media only screen and (max-width:960px) {
   #showcase-content{
-    width: 800px;
+    width: 700px;
   }
 
   #showcase-content h1{
