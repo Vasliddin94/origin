@@ -308,6 +308,7 @@ img{
     height: 400px;
     padding-top: 130px;
     text-align: center;
+    background-size: 576px 400px;
   }
 
   #showcase h1{
