@@ -194,9 +194,10 @@ img{
 }
 
 
+
 @media only screen and (max-width:960px) {
   #showcase-content{
-    width: 800px;
+    width: 700px;
   }
 
   #showcase-content h1{
@@ -304,9 +305,8 @@ img{
   }
 
   #showcase{
-    width: 100%;
     height: 400px;
-    padding-top: 150px;
+    padding-top: 130px;
     text-align: center;
   }
 
@@ -329,6 +329,7 @@ img{
 
   #info{
     height: 800px;
+    width: 100%;
   }
 
   .top{
@@ -339,9 +340,3 @@ img{
     height: 500px;
   }
 }
-
-
-
-
-
-/* Contact */
