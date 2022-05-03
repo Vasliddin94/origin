@@ -9,6 +9,7 @@ body{
   margin: 0;
   padding: 0;
   font-size: 17px;
+  box-sizing: border-box;
 }
 #showcase h1{
   color: #ffffff;
@@ -55,7 +56,7 @@ body{
 }
 
 #showcase{
-  background: url(https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg) no-repeat center center;
+  background: url(https://wallpaperaccess.com/full/1567747.jpg);
   border-bottom: 1px solid #03a9a9;
   margin-bottom: 30px;
   height: 500px;
@@ -285,6 +286,9 @@ body{
 }
 
 @media only screen and (max-width:576px) {
+  body{
+    box-sizing: border-box;
+  }
   .container{width: 500px;
   }
   #main-header{
@@ -349,7 +353,7 @@ body{
   #main-header{
     text-align: center;
     height: 150px;
-    width: 350px;
+    width: 500px;
   }
   .right{
     float: none;
