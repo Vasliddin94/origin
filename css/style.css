@@ -402,4 +402,128 @@ body{
   #main-footer{
     width: 500px;
   }
+
+
+  #contact h1{
+    font-size: 25px;
+  }
+
+  #contact label{
+    font-weight: 600;
+  }
+
+  #contact textarea{
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    width: 400px;
+  }
+
+  #ques{
+    padding: 5px 10px;
+    background-color: #03a9a9;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius:15px;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: 0.5s;
+  }
+
+  #contact ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: black;
+    transition: 0.5s;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  #Social{
+    padding-top: 20px;
+  }
+
+  #contact ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+    border-bottom: 1px solid rgba(255, 0, 0, 0);
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  #contact ul li a i{
+    font-size: 30px;
+    padding-right: 10px;
+  }
+}
+
+/* contact */
+
+#contact h1{
+  font-size: 25px;
+}
+
+#contact label{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#contact textarea{
+  border-radius: 15px;
+  position: relative;
+  top: 10px;
+}
+
+#ques{
+  padding: 10px 15px;
+  background-color: #03a9a9;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius:15px;
+  color: #ffffff;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.5s;
+}
+
+#ques:hover{
+  box-shadow: 1px 3px 10px 1px #03a9a9;
+}
+
+#contact ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: black;
+  transition: 2s;
+}
+
+#contact ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  transition: 0.5s;
+  border-bottom: 1px solid rgba(255, 0, 0, 0);
+}
+
+#contact ul li a i{
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+
+
+#contact ul li a:hover{
+  border-bottom: 2px solid rgba(85, 87, 85, 1);
+
 }
