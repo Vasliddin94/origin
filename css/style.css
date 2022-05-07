@@ -56,7 +56,9 @@ body{
 }
 
 #showcase{
-  background: url(https://wallpaperaccess.com/full/1567747.jpg);
+  background:linear-gradient( rgba(104, 104, 107, 0.5) 100%, rgba(167, 167, 171, 0.8)100%), url(../img/men.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   border-bottom: 1px solid #03a9a9;
   margin-bottom: 30px;
   height: 500px;
@@ -363,7 +365,7 @@ body{
     height: 400px;
     padding-top: 130px;
     text-align: center;
-    background-size: 576px 400px;
+    background-size: cover;
     width: 500px;
   }
 
