@@ -56,13 +56,13 @@ body{
 }
 
 #showcase{
-  background:linear-gradient( rgba(104, 104, 107, 0.5) 100%, rgba(167, 167, 171, 0.8)100%), url(../img/men.jpg);
+  background:linear-gradient( rgba(50, 50, 50, 0.5) 100%, rgba(100, 100, 100, 0.8)100%), url(../img/men.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 1px solid #03a9a9;
   margin-bottom: 30px;
   height: 500px;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 
@@ -78,7 +78,7 @@ body{
 }
 
 #showcase-content{
-  background-color:rgb(1, 2, 3, 0.5) ;
+  background-color:rgb(92, 91, 91, 0.5) ;
   width: 900px;
   padding: 40px;
   border-radius: 90px;
@@ -87,6 +87,9 @@ body{
   opacity: 0.9
 }
 
+.black{
+  color: black
+}
 
 #features{
   text-align: center;
