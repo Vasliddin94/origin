@@ -1,4 +1,4 @@
-let name=prompt("Please enter your name: " "Your name")
+var name=prompt("Please enter your name: " "Your name")
 
 alert("Welcome "+name+"!")
 
