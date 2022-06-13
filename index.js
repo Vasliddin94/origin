@@ -1,5 +1,5 @@
-var name=prompt("Please enter your name: " "Your name")
+console.log("hello");
 
-alert("Welcome "+name+"!")
+let a=prompt("Please enter your name", "Name");
 
-console.log("ulandi brat")
+alert("Welcome " +a+"!"+ " Enjoy your time here.");
