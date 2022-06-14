@@ -33,7 +33,6 @@
   opacity: 1;
   transition: .3s;
   right: 0px;
-
 }
 
 #mySidenav a { /* On mouse-over, make the elements appear as they should */
@@ -375,12 +374,24 @@ body{
 
   #mySidenav h1{
     position: absolute;
-    right: -80px;
-    top: 0;
+    right: -130px;
+    top: -25px;
     border-radius: 5px;
     font-size: 50px;
     cursor: pointer;
   }
+
+  #mySidenav a:hover {
+    right: 10px; /* On mouse-over, make the elements appear as they should */
+    opacity: 1;
+  }
+
+  #mySidenav:hover a{
+    opacity: 1;
+    transition: .3s;
+    right: -150px;
+  }
+
   #main-header{
     text-align: center;
     height: 150px;
