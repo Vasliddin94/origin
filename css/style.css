@@ -374,7 +374,7 @@ body{
 
   #mySidenav h1{
     position: absolute;
-    right: -120px;
+    right: -100px;
     top: -25px;
     border-radius: 5px;
     font-size: 50px;
@@ -389,7 +389,7 @@ body{
   #mySidenav:hover a{
     opacity: 1;
     transition: .3s;
-    right: -120px;
+    right: -100px;
   }
 
   #main-header{
