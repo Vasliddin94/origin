@@ -374,14 +374,14 @@ body{
 
   #mySidenav h1{
     position: absolute;
-    right: -130px;
+    right: -120px;
     top: -25px;
     border-radius: 5px;
     font-size: 50px;
     cursor: pointer;
   }
 
-  #mySidenav a:hover {
+  #mySidenav:hover a {
     right: 10px; /* On mouse-over, make the elements appear as they should */
     opacity: 1;
   }
@@ -389,7 +389,7 @@ body{
   #mySidenav:hover a{
     opacity: 1;
     transition: .3s;
-    right: -150px;
+    right: -120px;
   }
 
   #main-header{
