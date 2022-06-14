@@ -3,6 +3,72 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  right: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 14px; /* 15px padding */
+  width: 150px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 25px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  margin-top: 50px;
+}
+
+#mySidenav h1{
+  position: absolute;
+  right: 20px;
+  top: 0;
+  border-radius: 5px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#mySidenav{
+  transition: .3s;
+}
+
+#mySidenav:hover a{
+  opacity: 1;
+  transition: .3s;
+  right: 0px;
+
+}
+
+#mySidenav a { /* On mouse-over, make the elements appear as they should */
+  opacity: 0;
+  transition: 0.3;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+
+#mySidenav a:hover {
+  right: 15px; /* On mouse-over, make the elements appear as they should */
+  opacity: 1;
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
+}
 
 body{
   font-family: 'Open Sans', sans-serif;
