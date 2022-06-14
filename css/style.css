@@ -304,6 +304,16 @@ body{
     width: 500px;
   }
 
+
+  #mySidenav h1{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    border-radius: 5px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
   #navbar{
     padding-left: 70px;
   }
@@ -361,6 +371,15 @@ body{
     box-sizing: border-box;
   }
   .container{width: 500px;
+  }
+
+  #mySidenav h1{
+    position: absolute;
+    right: -80px;
+    top: 0;
+    border-radius: 5px;
+    font-size: 50px;
+    cursor: pointer;
   }
   #main-header{
     text-align: center;
