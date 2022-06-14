@@ -8,12 +8,13 @@
   right: -80px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 14px; /* 15px padding */
-  width: 150px; /* Set a specific width */
+  width: 170px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 25px; /* Increase font size */
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
   margin-top: 50px;
+  text-align: left;
 }
 
 #mySidenav h1{
@@ -38,7 +39,6 @@
 #mySidenav a { /* On mouse-over, make the elements appear as they should */
   opacity: 0;
   transition: 0.3;
-  border-radius: 5px;
   z-index: 10;
 }
 
@@ -51,22 +51,22 @@
 /* The about link: 20px from the top with a green background */
 #about {
   top: 20px;
-  background-color: #04AA6D;
+  background-color: #03a9a9;
 }
 
 #blog {
   top: 80px;
-  background-color: #2196F3; /* Blue */
+  background-color: #03a9a9; /* Blue */
 }
 
 #projects {
   top: 140px;
-  background-color: #f44336; /* Red */
+  background-color: #03a9a9; /* Red */
 }
 
 #contact {
   top: 200px;
-  background-color: #555 /* Light Black */
+  background-color: #03a9a9 /* Light Black */
 }
 
 body{
