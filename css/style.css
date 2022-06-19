@@ -427,7 +427,7 @@ body{
   }
 
   #features{
-    height: 1450px;
+    /* height: 1450px; */
     width: 500px;
     position:relative;
     background-color: deepskyblue;
