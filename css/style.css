@@ -212,6 +212,7 @@ body{
 
 .top{
   margin-top: 120px;
+  text-align: left;
 }
 
 #company{
@@ -254,6 +255,12 @@ body{
   text-align: center;
   background-color: #03a9a9;
   color: #fff;
+}
+
+#main-footer-p{
+  text-align: center;
+  left: 50%;
+  transform: translateY(-50%);
 }
 
 
@@ -476,7 +483,32 @@ body{
   background-color: rgba(105, 105, 105, 0.5);
   border-radius: 5px;
   margin-bottom: 50px;
+}
 
+#about-section-one >div:nth-child(3){
+  transition: 0.5s;
+}
+
+#about-section-one >div:nth-child(4){
+  transition: 0.5s;
+}
+
+#about-section-one >div:nth-child(5){
+  transition: 0.5s;
+}
+
+#about-section-one >div:nth-child(3):hover{
+  transform: scale(1.05);
+  box-sizing: border-box;
+}
+
+#about-section-one >div:nth-child(4):hover{
+  transform: scale(1.05);
+  box-sizing: border-box;
+}
+#about-section-one >div:nth-child(5):hover{
+  transform: scale(1.05);
+  box-sizing: border-box;
 }
 
 
