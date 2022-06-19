@@ -429,6 +429,7 @@ body{
   #features{
     height: 1350px;
     width: 500px;
+    position:relative;
   }
 
   #info{
