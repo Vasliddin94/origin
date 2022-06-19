@@ -445,7 +445,7 @@ body{
   }
 
   #company{
-    margin-top: 100px;
+    position: relative;
     height: 500px;
     width: 500px;
   }
