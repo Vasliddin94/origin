@@ -5,7 +5,7 @@
 
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  top: -600px; /* Position them outside of the screen */
+  top: -80px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 14px; /* 15px padding */
   width: 170px; /* Set a specific width */
@@ -42,11 +42,6 @@
   z-index: 10;
 }
 
-#mySidenav h1:active #mySidenav {
-  top: 5px;
-  right: 15px; /* On mouse-over, make the elements appear as they should */
-  opacity: 1;
-}
 
 #mySidenav a:hover {
   right: 15px; /* On mouse-over, make the elements appear as they should */
