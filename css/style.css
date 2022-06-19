@@ -322,7 +322,6 @@ body{
   #showcase h1{
     font-size: 35px;
     padding-bottom: 20px;
-    color: blue;
 
   }
 
@@ -417,7 +416,6 @@ body{
   #showcase h1{
     font-size: 30px;
     padding-bottom: 15px;
-    color: red;
   }
 
   #showcase p{
@@ -429,11 +427,12 @@ body{
   }
 
   #features{
-    height: 1300px;
+    height: 1350px;
     width: 500px;
   }
 
   #info{
+    position: relative;
     height: 800px;
     width: 500px;
   }
