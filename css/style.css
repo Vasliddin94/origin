@@ -330,11 +330,12 @@ body{
   }
 
   #features{
-    height: 850px;
+    height: 1050px;
   }
 
-  #info{
-    height: 520px;
+  #info{position:relative;
+    margin-top: 150px;
+    height: 700px;
   }
 
   .tel{
