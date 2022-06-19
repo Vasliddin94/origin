@@ -322,6 +322,7 @@ body{
   #showcase h1{
     font-size: 35px;
     padding-bottom: 20px;
+    color: blue;
 
   }
 
@@ -416,6 +417,7 @@ body{
   #showcase h1{
     font-size: 30px;
     padding-bottom: 15px;
+    color: red;
   }
 
   #showcase p{
