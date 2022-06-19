@@ -43,6 +43,7 @@
 }
 
 #mySidenav h1:hover #mySidenav {
+  top: 5px;
   right: 15px; /* On mouse-over, make the elements appear as they should */
   opacity: 1;
 }
