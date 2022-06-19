@@ -431,7 +431,6 @@ body{
     height: 1600px;
     width: 500px;
     position:relative;
-    background-color: deepskyblue;
   }
 
   #info{
@@ -455,6 +454,24 @@ body{
   #main-footer{
     width: 500px;
   }
+}
+
+/* about */
+
+#about-section-one img{
+  width: 100%;
+  border-radius: 25px;
+}
+
+#about-section-one h1{
+  text-align: center;
+  margin-top: 35px;
+}
+
+#about-section-one >div:nth-child(1){
+  background-color: rgba(105, 105, 105, 0.5);
+  border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 
