@@ -430,6 +430,7 @@ body{
     height: 1450px;
     width: 500px;
     position:relative;
+    background-color: deepskyblue;
   }
 
   #info{
