@@ -5,7 +5,7 @@
 
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  top: -80px; /* Position them outside of the screen */
+  right: -80px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 14px; /* 15px padding */
   width: 170px; /* Set a specific width */
@@ -46,7 +46,6 @@
 #mySidenav a:hover {
   right: 15px; /* On mouse-over, make the elements appear as they should */
   opacity: 1;
-  top:80px;
 }
 
 /* The about link: 20px from the top with a green background */
