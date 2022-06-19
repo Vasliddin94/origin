@@ -432,6 +432,7 @@ body{
   }
 
   #info{
+    margin-top: 100px;
     position: relative;
     height: 800px;
     width: 500px;
